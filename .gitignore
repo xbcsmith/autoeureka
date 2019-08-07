@@ -10,3 +10,21 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+.DS_Store
+
+vendor/
+
+*.manifest
+*.syso
+
+/bin
+/tools
+/tests/coverage.*
+/docker-compose.override.yml
+/versioninfo.json
+
+.vscode/
+.idea/
+debug
+
