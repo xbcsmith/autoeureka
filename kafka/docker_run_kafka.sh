@@ -21,5 +21,3 @@ docker run -d -t --name kafka             \
 	-e ZK=zk -p 9092                           \
 	--link zookeeper:zk                        \
 	wurstmeister/kafka:0.10.1.0
-
-

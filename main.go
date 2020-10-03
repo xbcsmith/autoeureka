@@ -190,5 +190,4 @@ func main() {
 	go runEmitter(cfg)
 	go runProcessor(cfg)
 	runView(cfg)
-
 }
